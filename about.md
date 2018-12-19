@@ -1,0 +1,1 @@
+In this repository, I'm going to attemp solving the euler problems. These can be foun at https://projecteuler.net
