@@ -30,7 +30,7 @@ internal class Problem1KtTest {
     @ParameterizedTest
     @MethodSource("testDataProvider")
     fun isMultipleOf(data: TestData) {
-        assertThat(data.multiple isMultipleOf data.base)
-            .isEqualTo(data.expectedResult)
+        val (number, base, expectedResult) = data
+        assertThat(number isMultipleOf base).isEqualTo(expectedResult)
     }
 }
